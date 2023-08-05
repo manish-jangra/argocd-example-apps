@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: registry.redhat.io/rhscl/httpd-24-rhel7:2.4
+      - image: registry.access.redhat.com/rhscl/httpd-24-rhel7:2.4-216
         name: guestbook-ui
         ports:
         - containerPort: 8080
